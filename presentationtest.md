@@ -13,8 +13,7 @@ title: 'My Presentation'
       <div class="slides">
         <section>
           <h1>Slide 1</h1>
-          Ahoj Ahoj 
-        </section>
+         </section>
         <section>
           <h1>Slide 2</h1>
         </section>
