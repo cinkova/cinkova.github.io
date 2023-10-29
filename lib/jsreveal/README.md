@@ -1,43 +1,50 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/be9ff8bf-e575-44b6-9db4-1087ff4942f8/deploy-status)](https://app.netlify.com/sites/revealjs/deploys)
+<p align="center">
+  <a href="https://revealjs.com">
+  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
+  </a>
+  <br><br>
+  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
+  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
+</p>
 
-# revealjs.com
-The official reveal.js website and docs. Contributions are welcome!
+reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
 
-## Installation
-1. Clone the repo
-   ```sh
-   $ git clone https://github.com/reveal/revealjs.com.git && cd revealjs.com
-   ```
+The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
 
-1. Install dependencies
-   ```sh
-   $ yarn
-   ```
+---
 
-1. Start the development server
-   ```sh
-   $ yarn start
-   ```
+Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
 
-The development server will automatically reload as you make changes.
+---
 
-## Spell Check
-There's a built-in task for spell checking.
+### Sponsors
+Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
+<div align="center">
+  <table>
+    <td align="center">
+      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
+        <div>
+          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
+        </div>
+        <b>Your app, enterprise-ready.</b>
+        <div>
+          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
+        </div>
+      </a>
+    </td>
+  </table>
+</div>
 
-```sh
-$ yarn test
-```
+---
 
-## Technologies
-This site is built using [Eleventy](https://www.11ty.dev/) — a powerful but easy to use static site generator. It's styled with [tailwindcss](https://tailwindcss.com/) and the docs are written in Markdown.
+### Getting started
+- 🚀 [Install reveal.js](https://revealjs.com/installation)
+- 👀 [View the demo presentation](https://revealjs.com/demo)
+- 📖 [Read the documentation](https://revealjs.com/markup/)
+- 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
+- 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
 
-## Deploy
-The site is hosted on Netlify and automatically deploys master when there are new commits.
-
-We automatically generate our production build at deploy-time but it's also possible to do it manually with:
-```
-yarn run production
-```
-
-### Note
-reveal.js is installed from the [master branch](https://github.com/hakimel/reveal.js/). If it gets stuck on an old version, remove the reveal.js entry from `package.lock.json` and rerun `yarn`.
+--- 
+<div align="center">
+  MIT licensed | Copyright © 2011-2023 Hakim El Hattab, https://hakim.se
+</div>
