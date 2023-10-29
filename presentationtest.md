@@ -1,5 +1,5 @@
 ---
-layout: revealjs
+layout: default
 title: 'My Presentation'
 ---
 
