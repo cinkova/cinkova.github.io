@@ -1,5 +1,5 @@
 ---
-layout: entry
+layout: presentation
 title: 'My Presentation'
 ---
 
