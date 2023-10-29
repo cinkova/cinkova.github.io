@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <!-- Add necessary CSS and JavaScript for Annodoc here -->
+  <link rel="stylesheet" href="link_to_annodoc.css">
+  <script src="link_to_annodoc.js"></script>
+  <!-- Reveal.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/4.2.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/4.2.0/dist/theme/white.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      {{ content }}
+    </div>
+  </div>
+  <!-- Reveal.js JavaScript -->
+  <script src="https://cdn.jsdelivr.net/reveal.js/4.2.0/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      transition: 'slide'
+    });
+  </script>
+  <!-- Add any custom JavaScript required by Annodoc here -->
+  <script src="link_to_custom_annodoc.js"></script>
+</body>
+</html>
