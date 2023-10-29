@@ -4,8 +4,8 @@ title: 'My Presentation'
 ---
 
 <section>
-  <h1>Slide 1</h1>
-  <pre><code class="language-sdparse">
+  <h1>Slide 1</h1>  
+  ~~~ sdparse
   Hlas jeden z daleka , hlas volá člověka
   nsubj(volá, Hlas)
   nummod(Hlas, jeden)
@@ -13,7 +13,8 @@ title: 'My Presentation'
   nmod(Hlas, daleka)
   appos(Hlas, hlas)
   obj(volá, člověka)
-  </code></pre>
+
+  ~~~
 </section>
 
 <section>
