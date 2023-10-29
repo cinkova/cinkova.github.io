@@ -20,6 +20,6 @@ title: 'My Presentation'
 
 <section>
   <h1>Slide 2</h1>
-  <p>XXXXXXXX 2</p>
+  <p>OOOOOOOOX 2</p>
 </section>
 
