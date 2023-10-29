@@ -1,5 +1,5 @@
 ---
-layout: presentation
+layout: slides
 title: 'My Presentation'
 ---
 
