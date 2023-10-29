@@ -17,7 +17,6 @@ title: 'My Presentation'
   </div>
 </section>
 
----
 
 <section>
   <h1>Slide 2</h1>
