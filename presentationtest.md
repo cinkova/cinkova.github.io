@@ -1,5 +1,5 @@
 ---
-layout: slides
+layout: entry
 title: My Slideshow
 ---
 
