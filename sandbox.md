@@ -19,9 +19,9 @@ Grammatical compound as a multiword token
 
 ~~~ conllu
 # text = z počátku
-1-2 zpočátku	zpočátku	_	_	_	_	_	_	_
-1	z	z	ADP	_	_	_	_	2	case
-2	počátku	počátek	NOUN	_	Case=Gen|Gender=Masc	0	root	_	_
+1-2  zpočátku  zpočátku  _  _  _  _  _  _  _
+1  z  z  ADP  _  _  2  case  _  _
+2  počátku  počátek  NOUN  _  Case=Gen|Gender=Masc  0  root  _  _
 
 ~~~
 
@@ -31,7 +31,7 @@ Grammatical compound as a fixed expression
 ~~~ conllu
 # text = z počátku
 1 z	z	ADP	_	_	0	root	_	_
-2 počátku	počátek	NOUN	_	Case=Gen|Gender=Masc	1	fixed	_	_
+2 počátku	počátek	NOUN	_	Case=Gen|Gender=Masc	1	fixed  _  _
 
 ~~~
 
