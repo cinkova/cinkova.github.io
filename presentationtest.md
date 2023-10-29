@@ -2,7 +2,7 @@
 layout: custom
 title: 'My Presentation'
 ---
-
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -21,6 +21,7 @@ title: 'My Presentation'
         transition: 'slide'
       });
     </script>
+```
 
     <div class="reveal">
       <div class="slides">
