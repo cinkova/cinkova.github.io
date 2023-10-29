@@ -1,5 +1,5 @@
 ---
-layout: custom
+layout: revealjs
 title: 'My Presentation'
 ---
 
