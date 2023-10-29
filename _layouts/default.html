@@ -9,6 +9,42 @@
 
     <div class="page-content">
       <div class="wrap">
+        <!-- Add Reveal.js initialization script here -->
+        <script src="lib/ext/revealjs/js/reveal.js"></script>
+        <script>
+          Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+            transition: 'slide'
+          });
+        </script>
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+
+<!-- support for embedded visualizations -->
+{% include embedding.html %}
+
+</html>
+
+<!-- puvodni zneni 
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrap">
     
       {{ content }}
       </div>
@@ -22,3 +58,4 @@
 {% include embedding.html %}
 
 </html>
+-->
