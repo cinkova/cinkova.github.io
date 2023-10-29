@@ -3,19 +3,20 @@ layout: slides
 title: 'My Presentation'
 ---
 
-# Slide 1
+<section>
+  <h1>Slide 1</h1>
+  <pre><code class="language-sdparse">
+  Hlas jeden z daleka , hlas volá člověka
+  nsubj(volá, Hlas)
+  nummod(Hlas, jeden)
+  case(daleka, z)
+  nmod(Hlas, daleka)
+  appos(Hlas, hlas)
+  obj(volá, člověka)
+  </code></pre>
+</section>
 
-~~~ sdparse
-Hlas jeden z daleka , hlas volá člověka
-nsubj(volá, Hlas)
-nummod(Hlas, jeden)
-case(daleka, z)
-nmod(Hlas, daleka)
-appos(Hlas, hlas)
-obj(volá, člověka)
-
-~~~ 
-
-# Slide 2
-
-Content for slide 2
+<section>
+  <h1>Slide 2</h1>
+  <p>Content for slide 2</p>
+</section>
