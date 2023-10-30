@@ -1,5 +1,5 @@
 ---
-layout: entry
+layout: post
 title: My Slideshow
 ---
 
